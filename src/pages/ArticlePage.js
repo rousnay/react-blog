@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getAuth } from "firebase/auth";
 import useUser from "../hooks/useUser";
 import axios from "axios";
 import AddCommentForm from "../components/AddCommentForm";
